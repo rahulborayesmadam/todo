@@ -52,13 +52,7 @@ const App = () => {
 
   if (loader) {
     return (
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
+      <div className="d-flex">
         <h1>Loading..</h1>;
       </div>
     );
@@ -66,7 +60,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Todos</h1>
+      <h1 className="d-flex">Todos</h1>
       <Todo
         todos={todos}
         newTodoText={newTodoText}
