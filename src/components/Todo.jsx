@@ -25,7 +25,7 @@ const Todo = ({
 
   return (
     <div className="container">
-      <div style={{ display: "flex", gap: 18 }}>
+      <div style={{ display: "flex", gap: 8 }}>
         <input
           type="search"
           placeholder="Enter Todo"
