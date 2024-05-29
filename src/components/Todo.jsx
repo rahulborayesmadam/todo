@@ -41,7 +41,7 @@ const Todo = ({
           {todos.map((todo) => (
             <div
               key={todo.id}
-              style={{ display: "flex", gap: 10, marginBottom: 20 }}
+              style={{ display: "flex", gap: 10, marginBottom: 20,marginTop:12 }}
             >
               <div>
                 <li
